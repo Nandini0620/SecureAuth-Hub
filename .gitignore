@@ -1,10 +1,32 @@
 HELP.md
+
+# Maven
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Logs
+*.log
+
+# Java
+*.class
+*.ctxt
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM Crash Logs
+hs_err_pid*
+replay_pid*
+
+# STS
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +35,13 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +51,13 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# Environment / Secrets
+.env
+application.properties
+
+# OS Files
+.DS_Store
+Thumbs.db
